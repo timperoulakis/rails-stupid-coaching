@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.quote {
+  border-left: 5px solid lightgrey;
+  padding: 10px 20px;
+}
+
+.quote-coach {
+  background-color: beige;
+}

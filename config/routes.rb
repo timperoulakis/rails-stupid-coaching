@@ -3,4 +3,11 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # root "/"
+  root to: "questions#ask"
+  get "ask", to: "questions#ask"
+  get "answer", to: "questions#answer"
+
+  # Generic syntax:
+  # verb "path", to: "controller#action"
 end
